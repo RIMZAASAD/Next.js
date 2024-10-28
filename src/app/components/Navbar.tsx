@@ -12,7 +12,7 @@ const Navbar = () => {
     <p className='text-gray-400  hover:animate-pulse'>Travels The <span className='text-orange-500'>  World</span> </p></h1></div>
       <ul className='text-gray-300 flex justify-center p-4 gap-10 '>
        
-        <li className='hover:translate-y-1 transition-all duration-300 ease-in-out'><Link href="/home">Home</Link></li>
+        <li className='hover:translate-y-1 transition-all duration-300 ease-in-out'><Link href="/">Home</Link></li>
         <li className='hover:translate-y-1 transition-all duration-300 ease-in-out'><Link href="/about">About</Link></li>
         <li className='hover:translate-y-1 transition-all duration-300 ease-in-out'><Link href="/contact">Contact</Link></li>
         <li className='hover:translate-y-1 transition-all duration-300 ease-in-out'><Link href="/travels">Travels</Link></li>
