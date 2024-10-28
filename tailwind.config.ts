@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,12 +10,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        'banner': "url('/images/tent.jpg')",
+        'banner2':"url('/images/paris.jpg')",
+        'banner3':"url('/images/park.jpg')",
+        'banner4':"url('/images/snow.jpg')",
+        'banner7':"url('/images/github.svg')",
+        
+
+        
       },
-    },
+   fontFamily:{
+    sans:["Bowlby One", "sans-serif"]
+   } },
   },
   plugins: [],
 };
+
 export default config;
